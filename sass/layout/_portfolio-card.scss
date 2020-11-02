@@ -2,7 +2,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   margin-top: 0px;
   margin-bottom: 4px;
 }
@@ -10,7 +10,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -94,7 +94,7 @@
 }
 .img-gallery-element-before:hover .overlay-element {
   transform: translateY(0);
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   display: flex;
   align-items: center;
   padding-left: 24px;
@@ -105,7 +105,7 @@
 }
 .link-work-element:focus-within .overlay-element {
   transform: translateY(0);
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   display: flex;
   align-items: center;
   padding-left: 24px;

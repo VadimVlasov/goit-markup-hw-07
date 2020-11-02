@@ -1,11 +1,11 @@
 .footer-social-link {
-  color: var(--secondary-white-color);
-  background-color: var(--primary-text-color);
+  color: $secondary-white-color;
+  background-color: $primary-text-color;
 }
 
 .footer-social-link:hover,
 :focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .active-social-link-footer:not(:last-child) {
   margin-right: 10px;
@@ -19,7 +19,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-bottom: 0px;
 }
 .address-item {
@@ -78,8 +78,8 @@
 }
 .contacts-footer:hover,
 .contacts-footer:focus {
-  background-color: var(--footer-background-color);
-  color: var(--accent-color);
+  background-color: $footer-background-color;
+  color: $accent-color;
 }
 .social-link-container {
   margin-top: 78px;
@@ -92,6 +92,6 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-bottom: 20px;
 }

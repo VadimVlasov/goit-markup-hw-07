@@ -12,7 +12,7 @@
   display: block;
   width: 270px;
   height: 120px;
-  background-color: var(--secondary-white-color);
+  background-color: $secondary-white-color;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 4px;
@@ -46,7 +46,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   margin-top: 0px;
   margin-bottom: 10px;
 }

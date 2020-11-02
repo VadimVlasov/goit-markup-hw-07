@@ -4,29 +4,29 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 .logo-2:hover {
-  background-color: var(--footer-background-color);
-  color: var(--accent-color);
+  background-color: $footer-background-color;
+  color: $accent-color;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-2:focus {
-  background-color: var(--footer-background-color);
-  color: var(--accent-color);
+  background-color: $footer-background-color;
+  color: $accent-color;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo:hover,
 .logo:focus {
-  background-color: var(--primary-white-color);
-  color: var(--accent-color);
+  background-color: $primary-white-color;
+  color: $accent-color;
 }
 .logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--primary-title-color);
+  color: $primary-title-color;
   margin-right: 85px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
