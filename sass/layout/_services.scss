@@ -15,6 +15,11 @@
   margin-bottom: 0px;
   display: flex;
 }
+
+.main-services-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .img-services {
   position: relative;
 }
@@ -39,9 +44,6 @@
   position: absolute;
   bottom: 0;
 }
-.main-services-list {
+.main-list {
   position: relative;
-}
-.main-services-list:not(:last-child) {
-  margin-right: 30px;
 }

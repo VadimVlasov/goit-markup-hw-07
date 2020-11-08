@@ -26,14 +26,15 @@
   color: $primary-title-color;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  &:hover {
+    color: $accent-color;
+  }
+  &:focus {
+    background-color: #ffffff;
+    color: $accent-color;
+  }
 }
-.nav-list:hover {
-  color: $accent-color;
-}
-.nav-list:focus {
-  background-color: #ffffff;
-  color: $accent-color;
-}
+
 .nav-list-1:hover {
   color: $accent-color;
 }

@@ -1,12 +1,12 @@
 .footer-social-link {
   color: $secondary-white-color;
   background-color: $primary-text-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
-.footer-social-link:hover,
-:focus {
-  background-color: $accent-color;
-}
 .active-social-link-footer:not(:last-child) {
   margin-right: 10px;
 }
@@ -21,14 +21,19 @@
   letter-spacing: 0.03em;
   color: $primary-white-color;
   margin-bottom: 0px;
-}
-.address-item {
-  flex-direction: column;
-  justify-content: space-around;
-  margin-right: 69px;
-  margin-top: 66px;
-  margin-bottom: 54px;
-  width: 231px;
+
+  &-item {
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 69px;
+    margin-top: 66px;
+    margin-bottom: 54px;
+    width: 231px;
+  }
+  &-block {
+    margin-top: 20px;
+    align-content: space-between;
+  }
 }
 
 .background-footer {
@@ -37,14 +42,10 @@
 .container-footer {
   display: flex;
   align-items: baseline;
-}
-.address-block {
-  margin-top: 20px;
-  align-content: space-between;
-}
-.contacts-footer-conteiner {
-  padding-left: 0px;
-  margin-bottom: 0px;
+  &-conteiner {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .social-link-list {
@@ -60,11 +61,17 @@
   justify-content: center;
   align-items: center;
 }
-
-.social-link-list svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
+.social-link {
+  &-list svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  &-container {
+    margin-top: 78px;
+    margin-bottom: 94px;
+    padding-top: 0px;
+  }
 }
 .contacts-footer {
   font-family: Roboto;
@@ -75,17 +82,14 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $footer-background-color;
+    color: $accent-color;
+  }
 }
-.contacts-footer:hover,
-.contacts-footer:focus {
-  background-color: $footer-background-color;
-  color: $accent-color;
-}
-.social-link-container {
-  margin-top: 78px;
-  margin-bottom: 94px;
-  padding-top: 0px;
-}
+
 .join-in {
   display: block;
   font-size: 14px;
